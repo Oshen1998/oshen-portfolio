@@ -5,7 +5,7 @@ const meta = {
     "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
-const introdata = {
+const introData = {
   title: "I’m Oshen Dikkumbura",
   animated: {
     first: "Love to code",
@@ -183,7 +183,7 @@ export {
   worktimeline,
   skills,
   services,
-  introdata,
+  introData,
   contactConfig,
   socialAccounts,
   logotext,

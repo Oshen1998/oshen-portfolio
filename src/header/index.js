@@ -3,9 +3,8 @@ import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
 import { logotext, socialAccounts } from "../content_option";
-// import Themetoggle from "../components/themetoggle";
 
-const Headermain = () => {
+const HeaderMain = () => {
   const [isActive, setActive] = useState("false");
 
   const handleToggle = () => {
@@ -18,7 +17,6 @@ const Headermain = () => {
       <header className="fixed-top site__header">
         <div className="d-flex align-items-center justify-content-between">
           <div className="d-flex align-items-center">
-            {/* <Themetoggle /> */}
             <button className="menu__button  nav_ac" onClick={handleToggle}>
               {!isActive ? <VscClose /> : <VscGrabber />}
             </button>
@@ -78,4 +76,4 @@ const Headermain = () => {
   );
 };
 
-export default Headermain;
+export default HeaderMain;

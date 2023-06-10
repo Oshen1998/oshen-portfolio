@@ -3,7 +3,7 @@ import "./style.css";
 import { FaGithub, FaFacebookF, FaLinkedin, FaMedium } from "react-icons/fa";
 import { socialAccounts } from "../../content_option";
 
-export const Socialicons = (params) => {
+export const SocialMediaIcons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
