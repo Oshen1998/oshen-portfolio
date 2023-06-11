@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logoText, socialAccounts } from "../content_option";
+import {socialAccounts } from "../content_option";
 
 const HeaderMain = () => {
   const [isActive, setActive] = useState("false");
@@ -36,11 +36,10 @@ const HeaderMain = () => {
                   <li className="menu_item">
                     <Link
                       onClick={handleToggle}
-                      to="/portfolio"
+                      to="/projects"
                       className="my-3"
                     >
-                      {" "}
-                      Portfolio
+                      Projects
                     </Link>
                   </li>
                   <li className="menu_item">
@@ -63,7 +62,7 @@ const HeaderMain = () => {
               <a href={socialAccounts.facebook}>Facebook</a>
               <a href={socialAccounts.github}>Github</a>
             </div>
-            <p className="copyright m-0">copyright __ {logoText}</p>
+            <p className="copyright m-0">Powered by ❤️ with Oshen Dikkumbura</p>
           </div>
         </div>
       </header>

@@ -1,19 +1,18 @@
-const logoText = "Oshen";
 const meta = {
   title: "Oshen Dikkumbura",
   description:
-    "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    "I’m Oshen Dikkumbura - Full stack developer",
 };
 
 const introData = {
   title: "I’m Oshen Dikkumbura",
   animated: {
     first: "Love to code",
-    second: "Love to build cool Web Apps...",
-    third: "Love to build Mobile Apps...",
+    second: "Love to build Web Apps",
+    third: "Love to build Mobile Apps",
   },
   description:
-    "Skilled in Angular | ReactJs | NodeJS | ExpressJS | NestJS | JavaScript | TypeScript | I bring a wealth of experience in full-stack development to every project",
+    "Skilled in Angular | ReactJs | NodeJS | ExpressJS | NestJS | JavaScript | TypeScript | I bring a wealth of experience in full-stack development to every project.",
 };
 
 const dataAbout = {
@@ -48,106 +47,59 @@ const skills = [
   },
   {
     name: "Angular",
-    value: 80,
+    value: 75,
   },
   {
     name: "React Native",
-    value: 65,
+    value: 60,
   },
 ];
 
 const services = [
   {
-    title: "Web Apps and Web Sites",
+    title: "Web Developments",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
   {
-    title: "Mobile Apps",
+    title: "Mobile App Developments",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
 ];
 
-const dataportfolio = [
+const dataPortfolio = [
   {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+    img: require("../src/assets/Projects/digi/digi_1.png"),
+    description: "Janashakthi Digital Insurance",
     link: "#",
   },
   {
-    img: "https://picsum.photos/400/800/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+    img: require("../src/assets/Projects/neo/neo_1.png"),
+    description: "EL Baseneo",
     link: "#",
   },
   {
-    img: "https://picsum.photos/400/?grayscale",
+    img: require("../src/assets/Projects/lolc/lolc_1.png"),
     description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+      "LOLC Insurance",
     link: "#",
   },
   {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+    img: require("../src/assets/Projects/digi/digi_1.png"),
+    description: "Janashakthi Digital Insurance",
     link: "#",
   },
   {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-
-  {
-    img: "https://picsum.photos/400/600/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/300/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/550/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-  },
-  {
-    img: "https://picsum.photos/400/700/?grayscale",
-    description:
-      "The wisdom of life consists in the elimination of non-essentials.",
+    img: require("../src/assets/Projects/neo/neo_1.png"),
+    description: "EL Baseneo",
     link: "#",
   },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "dikkumburao@gmail.com",
-  YOUR_FONE: "(555)123-4567",
+  YOUR_FONE: "+94-715787181",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
   // creat an emailjs.com account
@@ -166,12 +118,11 @@ const socialAccounts = {
 export {
   meta,
   dataAbout,
-  dataportfolio,
+  dataPortfolio,
   workTimeLine,
   skills,
   services,
   introData,
   contactConfig,
   socialAccounts,
-  logoText,
 };

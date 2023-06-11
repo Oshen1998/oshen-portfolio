@@ -11,7 +11,7 @@ export const Home = () => {
       <section id="home" className="home">
         <Helmet>
           <meta charSet="utf-8" />
-          <title> {meta.title}</title>
+          <title>{meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
         <div className="intro_sec d-block d-lg-flex align-items-center ">
@@ -36,20 +36,23 @@ export const Home = () => {
                 </h1>
                 <p className="mb-1x">{introData.description}</p>
                 <div className="intro_btn-action pb-8 mt-5 ">
-                  <Link to="/portfolio" className="text_2">
-                    <Link to="/contact">
-                      <div id="button_h" className="ac_btn btn">
-                        Projects
-                        <div className="ring one"></div>
-                      </div>
-                    </Link>
-                  </Link>
-                  <Link to="/contact">
+                  <Link to="/projects" className="text_2">
                     <div id="button_h" className="ac_btn btn">
-                      Resume
+                      Projects
                       <div className="ring one"></div>
                     </div>
                   </Link>
+                  <a
+                    href={require("../../assets/Resume/OshenResume.pdf")}
+                    target="_blank"
+                    rel="noreferrer"
+                    download={"Oshen's Resume"}
+                  >
+                    <button id="button_h" className="ac_btn btn">
+                      Resume
+                      <div className="ring one"></div>
+                    </button>
+                  </a>
                 </div>
               </div>
             </div>
