@@ -1,4 +1,4 @@
-const logotext = "JOHN";
+const logoText = "Oshen";
 const meta = {
   title: "Oshen Dikkumbura",
   description:
@@ -13,70 +13,57 @@ const introData = {
     third: "Love to build Mobile Apps...",
   },
   description:
-    "Skilled in Angular | ReactJs | NodeJS | ExpressJS | NestJS | JavaScript | TypeScript, I bring a wealth of experience in full-stack development to every project",
-  your_img_url_1: "https://addicted2success.com/wp-content/uploads/2017/11/10-Things-We-Can-Learn-From-the-Incredible-Steve-Jobs.jpg",
-  img: '../src/assets/images/Oshen1.jpg'
+    "Skilled in Angular | ReactJs | NodeJS | ExpressJS | NestJS | JavaScript | TypeScript | I bring a wealth of experience in full-stack development to every project",
 };
 
-const dataabout = {
-  title: "abit about my self",
-  aboutme:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+const dataAbout = {
+  title: "More About Me",
+  aboutMe: "Skilled in Angular | ReactJs | NodeJS | ExpressJS |",
 };
-const worktimeline = [
+const workTimeLine = [
   {
-    jobtitle: "Designer of week",
-    where: "YAdfi",
+    jobTitle: "Trainee Software Engineer",
+    where: "Echonlabs (Pvt) Ltd.",
     date: "2020",
   },
   {
-    jobtitle: "Designer of week",
-    where: "Jamalya",
-    date: "2019",
-  },
-  {
-    jobtitle: "Designer of week",
-    where: "ALquds",
-    date: "2019",
+    jobTitle: "Associate Software Engineer",
+    where: "Echonlabs (Pvt) Ltd.",
+    date: "2021 - Present",
   },
 ];
 
 const skills = [
   {
-    name: "Python",
-    value: 90,
-  },
-  {
-    name: "Djano",
-    value: 85,
-  },
-  {
     name: "Javascript",
-    value: 80,
-  },
-  {
-    name: "React",
     value: 60,
   },
   {
-    name: "Jquery",
-    value: 85,
+    name: "Typescript",
+    value: 60,
+  },
+  {
+    name: "React",
+    value: 70,
+  },
+  {
+    name: "Angular",
+    value: 80,
+  },
+  {
+    name: "React Native",
+    value: 65,
   },
 ];
 
 const services = [
   {
-    title: "UI & UX Design",
+    title: "Web Apps and Web Sites",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
   {
     title: "Mobile Apps",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-  },
-  {
-    title: "Wordpress Design",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
   },
@@ -178,13 +165,13 @@ const socialAccounts = {
 };
 export {
   meta,
-  dataabout,
+  dataAbout,
   dataportfolio,
-  worktimeline,
+  workTimeLine,
   skills,
   services,
   introData,
   contactConfig,
   socialAccounts,
-  logotext,
+  logoText,
 };

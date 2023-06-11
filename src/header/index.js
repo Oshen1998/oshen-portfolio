@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./style.css";
 import { VscGrabber, VscClose } from "react-icons/vsc";
 import { Link } from "react-router-dom";
-import { logotext, socialAccounts } from "../content_option";
+import { logoText, socialAccounts } from "../content_option";
 
 const HeaderMain = () => {
   const [isActive, setActive] = useState("false");
@@ -22,7 +22,7 @@ const HeaderMain = () => {
             </button>
           </div>
         </div>
-
+        {/* Home navigation list */}
         <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
           <div className="bg__menu h-100">
             <div className="menu__wrapper">
@@ -62,9 +62,8 @@ const HeaderMain = () => {
             <div className="d-flex">
               <a href={socialAccounts.facebook}>Facebook</a>
               <a href={socialAccounts.github}>Github</a>
-              {/* <a href={socialAccounts.twitter}>Twitter</a> */}
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
+            <p className="copyright m-0">copyright __ {logoText}</p>
           </div>
         </div>
       </header>

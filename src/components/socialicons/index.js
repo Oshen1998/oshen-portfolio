@@ -7,7 +7,7 @@ export const SocialMediaIcons = (params) => {
   return (
     <div className="stick_follow_icon">
       <ul>
-        {socialAccounts.twitter && (
+        {socialAccounts.medium && (
           <li>
             <a target="_blank" rel="noreferrer" href={socialAccounts.medium}>
               <FaMedium />
