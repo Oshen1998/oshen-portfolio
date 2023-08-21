@@ -62,7 +62,7 @@ const HeaderMain = () => {
               <a href={socialAccounts.facebook}>Facebook</a>
               <a href={socialAccounts.github}>Github</a>
             </div>
-            <p className="copyright m-0">Powered by ❤️ with Oshen Dikkumbura</p>
+            <p className="copyright m-0">Created by ❤️ with Oshen Dikkumbura</p>
           </div>
         </div>
       </header>
