@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cd88827d.css",
+    "main.js": "/static/js/main.d2347af7.js",
+    "static/media/OshenResume.pdf": "/static/media/OshenResume.fd9ab353f8824ca74522.pdf",
+    "static/media/ncc2.png": "/static/media/ncc2.7b580d99eb174da82873.png",
+    "static/media/ncpa1.png": "/static/media/ncpa1.a279e9effcadc6c39e9c.png",
+    "static/media/Oshen.jpeg": "/static/media/Oshen.2ceb8327113cd8dc8163.jpeg",
+    "static/media/neo_1.png": "/static/media/neo_1.247041e03779787845c5.png",
+    "static/media/aicore1.png": "/static/media/aicore1.0d0f16df0c37feab03fc.png",
+    "static/media/digi_1.png": "/static/media/digi_1.06f50aa907a23b8a7d32.png",
+    "static/media/digi_4.png": "/static/media/digi_4.80d62b8f03c26b45675d.png",
+    "static/media/neo_3.png": "/static/media/neo_3.7a24500129ee67596bec.png",
+    "static/media/neo_2.png": "/static/media/neo_2.649651d75f129b0f873c.png",
+    "static/media/digi_3.png": "/static/media/digi_3.ef5b98eae3dbd2daba31.png",
+    "static/media/aicore2.png": "/static/media/aicore2.dfb485f00d60b29e20a1.png",
+    "static/media/m1.png": "/static/media/m1.e83a7aa352aa8c9df167.png",
+    "static/media/ncpa2.png": "/static/media/ncpa2.8667d88a4d4cfe7eaa14.png",
+    "static/media/m2.png": "/static/media/m2.3fb49ac37ef011c1d2b7.png",
+    "static/media/ncc1.png": "/static/media/ncc1.4a531f7ca83af402a6ed.png",
+    "index.html": "/index.html",
+    "main.cd88827d.css.map": "/static/css/main.cd88827d.css.map",
+    "main.d2347af7.js.map": "/static/js/main.d2347af7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd88827d.css",
+    "static/js/main.d2347af7.js"
+  ]
+}
