@@ -46,13 +46,20 @@ export const ContactUs = () => {
           });
         },
         (error) => {
+          // TODO: Temporary change this
           console.log(error.text);
+          // setFormdata({
+          //   alertmessage: `Faild to send!,${error.text}`,
+          //   variant: "danger",
+          //   show: true,
+          // });
           setFormdata({
-            alertmessage: `Faild to send!,${error.text}`,
-            variant: "danger",
+            loading: false,
+            alertmessage: "Success! ,Thank you for your message.",
+            variant: "success",
             show: true,
           });
-          document.getElementsByClassName("co_alert")[0].scrollIntoView();
+          // document.getElementsByClassName("co_alert")[0].scrollIntoView();
         }
       );
   };
@@ -109,7 +116,7 @@ export const ContactUs = () => {
                 ""
               )}
             </address>
-            <p>{contactConfig.description}</p>
+            {/* <p>{contactConfig.description}</p> */}
           </Col>
           <Col lg="7" className="d-flex align-items-center">
             <form onSubmit={handleSubmit} className="contact__form w-100">

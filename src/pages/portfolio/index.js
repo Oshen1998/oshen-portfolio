@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import { dataPortfolio, meta } from "../../content_option";
+import { CommonModal } from "../../components/modals";
 
 export const Portfolio = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [data, setData] = useState({});
+  const callToDialog = (data) => {
+    setShowModal(!showModal);
+    setData(data);
+  };
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -26,13 +34,24 @@ export const Portfolio = () => {
                 <img src={data.img} alt="" />
                 <div className="content">
                   <p>{data.description}</p>
-                  <a className="view_project" href={data.link}>
+                  <button
+                    onClick={() => callToDialog(data)}
+                    className="view_projec btn btn-success"
+                    href={data.link}
+                  >
                     More Info
-                  </a>
+                  </button>
                 </div>
               </div>
             );
           })}
+        </div>
+        <div>
+          <CommonModal
+            show={showModal}
+            onHide={() => callToDialog()}
+            projectData={data}
+          />
         </div>
       </Container>
     </HelmetProvider>

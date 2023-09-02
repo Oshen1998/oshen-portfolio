@@ -1,7 +1,6 @@
 const meta = {
   title: "Oshen Dikkumbura",
-  description:
-    "I’m Oshen Dikkumbura - Full stack developer",
+  description: "I’m Oshen Dikkumbura - Full stack developer",
 };
 
 const introData = {
@@ -17,7 +16,8 @@ const introData = {
 
 const dataAbout = {
   title: "More About Me",
-  aboutMe: "Skilled in Angular | ReactJs | NodeJS | ExpressJS |",
+  aboutMe:
+    "l am a goal-oriented individual with the ability to cope up with any responsibility and duty given to me. Ihave the capability of interacting with various types of people and working together as a team with having a good team spirit. Iam able to handle multiple tasks on a daily basis.",
 };
 const workTimeLine = [
   {
@@ -59,51 +59,100 @@ const services = [
   {
     title: "Web Developments",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "CUSTOM WEB DEVELOPMENTS | WEB APPLICATION DEVELOPMENT | E-COMMERCE APP DEVELOPMENT | API DEVELOPMENT AND INTEGRATION",
   },
   {
     title: "Mobile App Developments",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+      "CROSS PLATFORM APP DEVELOPMENTS | APP MAINTENANCE SUPPORT | API DEVELOPMENT AND INTEGRATION | CUSTOM APP DEVELOPMENT",
   },
 ];
 
 const dataPortfolio = [
   {
     img: require("../src/assets/Projects/digi/digi_1.png"),
-    description: "Janashakthi Digital Insurance",
-    link: "#",
+    description: "Protech | Powered By Janashakthi",
+    key: "EL_DIGI",
+    popup_img_1: require('../src/assets/Projects/digi/digi_4.png'),
+    popup_img_2: require('../src/assets/Projects/digi/digi_3.png'),
+    link: "https://digi.janashakthi.com/",
+    details: [
+      'A platform to explore, customize, and purchase insurance policies.',
+      'Worked as a front-end developer while engaging with clients.',
+      'Followed CSS methodologies such as BEM and ITCSS.',
+      'Angular, Material UI, Sass',
+    ]
   },
   {
-    img: require("../src/assets/Projects/neo/neo_1.png"),
-    description: "EL Baseneo",
-    link: "#",
+    img: require("../src/assets/Projects/ncpa/ncpa1.png"),
+    description: "NCPA | Government Project",
+    key: "NCPA",
+    popup_img_1: require('../src/assets/Projects/ncpa/ncpa1.png'),
+    popup_img_2: require('../src/assets/Projects/ncpa/ncpa2.png'),
+    link: "",
+    details: [
+      'Guide the junior batch complete to this project.',
+      'Developed the system for automate the recruitment process.',
+      'API integration for authentication and authorization using JWT.',
+      'Angular, ExpressJs, NodeJs, MongoDB',
+    ],
   },
   {
-    img: require("../src/assets/Projects/lolc/lolc_1.png"),
-    description:
-      "LOLC Insurance",
-    link: "#",
+    img: require("../src/assets/Projects/lolc/m1.png"),
+    description: "LOLC INSURANCE OneClick |  Powered By LOLC",
+    key: 'LOLC_ONE_CLICK',
+    popup_img_1: require('../src/assets/Projects/lolc/m2.png'),
+    popup_img_2: require('../src/assets/Projects/lolc/m1.png'),
+    link: "https://appagg.com/android/finance/lolc-insurance-oneclick-38797427.html?hl=en?hl=ko",
+    details: [
+      'Developed the Dynamic forms for customer services and claims Module.',
+      'Developed the shared components.',
+      'React Native, Redux, Redux-Saga, Firebase',
+    ]
   },
   {
-    img: require("../src/assets/Projects/digi/digi_1.png"),
-    description: "Janashakthi Digital Insurance",
-    link: "#",
+    img: require("../src/assets/Projects/ncc/ncc2.png"),
+    description: "NCC | Government Project",
+    key: 'LAKSHILPA',
+    popup_img_1: require('../src/assets/Projects/ncc/ncc1.png'),
+    popup_img_2: require('../src/assets/Projects/ncc/ncc2.png'),
+    link: "https://reg.lakshilpa.com/app/login",
+    details: [
+      'Developed the system for Registering the HandCraft Artists.',
+      'Angular, ExpressJs/ NodeJs, MongoDB',
+    ]
   },
   {
-    img: require("../src/assets/Projects/neo/neo_1.png"),
-    description: "EL Baseneo",
-    link: "#",
+    img: require("../src/assets/Projects/neo/neo_2.png"),
+    description: "EL BaseNeo | EchonLabs",
+    key: "BASE_NEO",
+    popup_img_1: require('../src/assets/Projects/neo/neo_1.png'),
+    popup_img_2: require('../src/assets/Projects/neo/neo_3.png'),
+    link: "https://dev.neo.base.echonlabs.com/",
+    details: [
+      'Company Base System many of the systems are depends on that platform.',
+      'Developed the knowledgebase module, both frontend and backend',
+      'Angular, ExpressJs, NodeJs, MongoDB',
+    ]
+  },
+  {
+    img: require("../src/assets/Projects/aicore/aicore1.png"),
+    description: "EL AiCore | EchonLabs",
+    key: "Ai_Core",
+    popup_img_1: require('../src/assets/Projects/aicore/aicore1.png'),
+    popup_img_2: require('../src/assets/Projects/aicore/aicore2.png'),
+    link: "https://aicore.echonlabs.com/",
+    details: [
+      'Ai based system for recognized the blurryNIC.',
+      'Developed the three modules with both frontend and backend (Keys module, Customers Module, Product module)',
+      'Angular, ExpressJs, NodeJs, MongoDB',
+    ]
   },
 ];
 
 const contactConfig = {
   YOUR_EMAIL: "dikkumburao@gmail.com",
   YOUR_FONE: "+94-715787181",
-  description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-  // creat an emailjs.com account
-  // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
   YOUR_SERVICE_ID: "service_id",
   YOUR_TEMPLATE_ID: "template_id",
   YOUR_USER_ID: "user_id",
